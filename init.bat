@@ -1,6 +1,6 @@
-mix deps.get
-mix ecto.create
-mix ecto.migrate
+call mix deps.get
+call mix ecto.create
+call mix ecto.migrate
 cd assets
-npm install
+call npm install
 cd..
