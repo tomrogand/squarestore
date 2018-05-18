@@ -1,0 +1,2 @@
+# squarestore
+Prototype webstore
