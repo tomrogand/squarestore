@@ -1,5 +1,6 @@
+mix deps.get
+mix ecto.create
+mix ecto.migrate
 cd assets
 npm install
 cd..
-mix ecto.create
-mix ecto.migrate
