@@ -11,24 +11,28 @@
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
-  <body>
-    <div class="container">
-      <header class="header">
-        <nav role="navigation">
-          <ul class="nav nav-pills pull-right">
-            <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
-          </ul>
-        </nav>
-        <span class="logo"></span>
-      </header>
-
-      <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-      <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
-
-      <main role="main">
-        <%= render @view_module, @view_template, assigns %>
+  <body class="sq-viewport">
+    <div class="sq-page">
+      <nav class="sq-nav-area">
+        <div role="navigation" class="sq-navbar-layout">
+			<div class="sq-navbar-nav  sq-secondary">
+				Nav
+			</div>
+			<div class="sq-navbar-domain  sq-secondary">
+				Domain
+			</div>
+			<div class="sq-navbar-links sq-secondary-highlight">
+				<span>Links:<a href="http://www.phoenixframework.org/docs">Get Started</a></span>
+			</div>
+        </div>
+	  </nav>
+      <main role="sq-main">
+    	<%= render @view_module, @view_template, assigns %>
       </main>
-
+	  <footer>
+        <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
+        <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+	  </footer>
     </div> <!-- /container -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
