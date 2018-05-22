@@ -1,0 +1,128 @@
+.viewport{
+  height: 100vh;
+  width: 100vw;
+}
+
+/*Grids */
+/* navbar - main - footer */
+.sq-container{
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.sq-phx-grid-main{
+  display:grid;
+  grid-template-rows: 15% auto;
+  grid-template-columns: 15% auto;
+  height:100%;
+}
+
+.sq-page{
+  display: grid;
+  grid-template-rows: 15% 1fr 5%;
+  grid-template-columns: 1
+}
+.sq-nav-area{
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.sq-navbar-layout{
+  grid-template-rows: 5vh 5vh 5vh;
+  grid-template-columns: 1fr;
+}
+
+.sq-phx-grid-navbar{
+  display:grid;
+  grid-row: 1 / 2;
+  grid-column: 1 / 4;
+  height:100%;
+}
+
+.sq-phx-grid-sidebar{
+  display:grid;
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+  height:100%;
+}
+
+
+.sq-phx-grid-middle{
+  display:grid;
+  grid-row:2 / 3;
+  grid-column: 2 / 4;
+  height:100%;
+}
+
+.sq-phx-grid-dropsite{
+  display:grid;
+  grid-row: 2/3;
+  grid-column:3/4;
+  height:100%;
+}
+
+.sq-navbar-nav{
+  grid-area: 1 / 1 / 2 / 2;
+  height: 5vh;
+}
+.sq-navbar-domain{
+  grid-area: 2 / 1 / 3 / 2;
+  height: 5vh;
+}
+.sq-navbar-links{
+  grid-area: 3 / 1 / 4 / 2;
+  height: 5vh;
+  /* background-color: var(--secondary-highlight); */
+}
+
+/* navbar - main - footer  end */
+.sq-grid-main-desktop{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(9, 1fr);
+    background-color: var(--background-secondary);
+     }
+.sq-grid-row-gap{grid-row-gap:1em;}
+.sq-grid-col-gap{grid-column-gap:1em;}
+.sq-grid-gap{grid-gap:1em;}
+/*
+  panels
+*/
+.sq-panel{
+    display:flex;
+    background-color: var(--background);
+    padding: .5em;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.sq-panel-main-top{grid-area: 1 / 1 / span 2 / span end; }
+.sq-panel-main-bottom{grid-area: 3 / 1 / span end / span end; }
+.sq-panel-main{grid-area: 1 / 1 / span end / span end; }
+
+/* cards */
+
+.sq-card{
+    display: grid;
+    grid-template-rows:minmax(1rem, 15%) 1fr minmax(1rem, 20%);
+    grid-template-columns: 1fr;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin:.5rem;
+}
+.sq-card-header{grid-area: 1 / 1 / span 1 / span end; }
+.sq-card-footer{grid-area: 3 / 1 / span 1 / span end;}
+.sq-card-body-footer{grid-area: 2 / 1 / span end / span 1}
+.sq-card-body-header{grid-area: 1 / 1 / span 2 / span 1}
+
+
+/*Flex*/
+
+.sq-flex-container-middle{
+  display:flex;
+  height:100%;
+  width:100%
+}
+
+.sq-flex-direction{
+  flex-direction:column;
+}

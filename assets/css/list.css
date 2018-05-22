@@ -1,0 +1,5 @@
+.code{
+	background-color:var(--background-secondary);
+	border-left:solid 3px var(--primary);
+	padding-left: 1em;
+}
