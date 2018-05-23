@@ -1,6 +1,4 @@
-.sq-nav-dropdown{
-  display: none;
-}
+.sq-nav-dropdown{display: none;}
 .sq-nav-dropbtn{
     padding: 0.5rem;
     font-size:1rem;
@@ -18,9 +16,5 @@
    padding: 0.3rem;
    margin: 0;
 }
-.sq-nav-dropdown-content a:hover{
-  background-color: var(--info-highlight);
-}
-  .sq-nav-dropbtn:hover{
-  background-color: var(--info);
-}
+.sq-nav-dropdown-content a:hover{background-color: var(--info-highlight);}
+.sq-nav-dropbtn:hover{background-color: var(--info);}
