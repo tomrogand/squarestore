@@ -25,12 +25,12 @@
        <div class="sq-flex-1"></div>
 
        <div class="sq-flex-auto">
-       <input type="text" placeholder="Search" name="search"
-        style="width: 75%; height: 20%;" class="">
+       <input type="text" placeholder:"search.." name="search"
+        style="width: 80%; height: 30%;">
        </div>
 
         <div class="sq-flex-1 sq-text-right">
-          <button>Sign in</button>
+          <button class="sq-nav-button-1">Sign in</button>
           <button>Shopping cart</button>
         </div>
 			</div>
