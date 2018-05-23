@@ -1,1 +1,11 @@
 /* This file is for your main application css. */
+
+/* FlexBox*/
+
+.sq-flex-1{
+flex: 1;
+}
+
+.sq-flex-auto{
+    flex: auto;
+}
