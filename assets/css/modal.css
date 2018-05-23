@@ -1,4 +1,4 @@
-.sq-modal {
+.sq-modal{
     position: fixed;
     left: 0;
     top: 0;
@@ -10,14 +10,14 @@
     transform: scale(1.1);
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
 }
-.sq-modal-content {
+.sq-modal-content{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
 }
-.sq-close-button {
+.sq-close-button{
     margin-right: 0.5em;
     margin-top: 0.3em;
     float: right;
@@ -25,11 +25,8 @@
     background-color:var(--primary);
     font-size: 1.5em;
 }
-.sq-close-button:hover {
-
-    background-color:var(--primary-highlight)
-}
-.sq-show-modal {
+.sq-close-button:hover{background-color:var(--primary-highlight)}
+.sq-show-modal{
     opacity: 1;
     visibility: visible;
     transform: scale(1.0);
@@ -44,7 +41,7 @@
     padding:0;
     margin:0;
 }
-.sq-btn:active {
+.sq-btn:active{
     -webkit-box-shadow: inset 1px 1px 10px #333;
     -moz-box-shadow:    inset 1px 1px 10px #333;
     box-shadow:         inset 1px 1px 10px #333;
