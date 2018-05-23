@@ -14,7 +14,8 @@
 [type=time],
 .sq-form select,
 .sq-form textarea{
-    width: 100%;
+    max-width: 100%;
+    min-width:95%;
     border:none;
     border-top: solid .1em var(--background);
     border-bottom: solid .1em var(--primary);
@@ -33,6 +34,15 @@
     font-weight: 300;
     font-style: italic;
     font-size: 80%;
+}
+.sq-form input[type=button], input[type=submit], input[type=reset], button[type=button], button[type=submit], button[type=reset] {
+    background-color: var(--success);
+    border: none;
+    color: var(--white);
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    margin: 0.2rem;
+    cursor: pointer;
 }
 .sq-form select:focus,
 .sq-form textarea:focus,

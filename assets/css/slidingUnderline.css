@@ -3,25 +3,20 @@
     max-width:60%;
     width:50%;
   }
-  
-  /*Classes*/
-  
+/*Classes*/
+
 /*Sliding Underline from Top to Bottom Start*/
 .sq-sliding-topBot {
     text-decoration: none;
     display: inline-block;
-    border-bottom: 0px solid transparent;  
+    border-bottom: 0px solid transparent;
     width: 210px;
     transition: 0.5s ease;
     height: 25px;
 }
-  
-.sq-sliding-topBot:hover {
-    border-bottom: 3px solid blue;
-}
+.sq-sliding-topBot:hover {border-bottom: 3px solid blue;}
 /*Sliding underline top to Bottom End*/
-  
-  
+
 /*Sliding Underline Right to Left Start*/
 .sq-sliding-rightToLeft {
     display: inline-block;
@@ -29,7 +24,6 @@
     padding-bottom: 3px;
     margin-right:100px;
 }
-  
 .sq-sliding-rightToLeft:after {
     content: '';
     display: block;
@@ -41,19 +35,14 @@
     background: transparent;
     transition: width .5s ease, background-color .5s ease;
 }
-  
 .sq-sliding-rightToLeft:hover:after {
     width: 100%;
     background: blue;
 }
 /*Sliding underline right to left end*/
-  
-  
+
 /*Sliding underline Left to Right Start*/
-.sq-sliding-leftToRight {
-    display: inline-block;
-}
-    
+.sq-sliding-leftToRight {display: inline-block;}
 .sq-sliding-leftToRight:after {
     content: '';
     display: block;
@@ -62,22 +51,19 @@
     background: transparent;
     transition: width .5s ease, background-color .5s ease;
 }
-  
 .sq-sliding-leftToRight:hover:after {
     width: 100%;
     background: blue;
 }
 /*Sliding Underline Left to Right End*/
-  
-  
-  /*Sliding Underline Middle Out Start*/
+
+/*Sliding Underline Middle Out Start*/
 .sq-sliding-middleOut {
     display: inline-block;
     position: relative;
     padding-bottom: 3px;
     margin-right:100px;
 }
-  
 .sq-sliding-middleOut:after {
     content: '';
     display: block;
@@ -87,14 +73,12 @@
     background: transparent;
     transition: width .5s ease, background-color .5s ease;
 }
-  
 .sq-sliding-middleOut:hover:after {
     width: 100%;
     background: blue;
 }
 /*Sliding Underline Middle Out End*/
-  
-  
+
 /*Sliding Underline keep going right Start*/
 .sq-sliding-inAndOnward {
     display: inline-block;
@@ -102,7 +86,6 @@
     padding-bottom: 3px;
     margin-right:100px;
 }
-  
 .sq-sliding-inAndOnward:before {
     content: '';
     display: block;
@@ -113,7 +96,6 @@
     width: 0;
     transition: width 0s ease, background .5s ease;
 }
-  
 .sq-sliding-inAndOnward:after {
     content: '';
     display: block;
@@ -125,28 +107,24 @@
     background: blue;
     transition: width .5s ease;
 }
-  
 .sq-sliding-inAndOnward:hover:before {
     width: 100%;
     background: blue;
     transition: width .5s ease;
 }
-  
 .sq-sliding-inAndOnward:hover:after {
     width: 100%;
     background: transparent;
     transition: all 0s ease;
 }
 /*Sliding Underline keep going right End*/
-  
-  
+
 /*Sliding Underline Stay until hovers over Start*/
 .sq-sliding-stayTilHover {
     display: inline-block;
     position: relative;
     padding-bottom: 3px;
 }
-  
 .sq-sliding-stayTilHover:before {
     content: '';
     display: block;
@@ -157,7 +135,6 @@
     width: 100%;
     transition: width 0s ease;
 }
-  
 .sq-sliding-stayTilHover:after {
     content: '';
     display: block;
@@ -169,20 +146,15 @@
     background: blue;
     transition: width .5s ease;
 }
-  
 .sq-sliding-stayTilHover:hover:before {
     width: 0%;
     background: blue;
     transition: width .5s ease;
 }
-  
 .sq-sliding-stayTilHover:hover:after {
     width: 0%;
     background: transparent;
     transition: width 0s ease;
 }
-  /*Sliding Underline Stay until hover over End*/
-  
-.sq-l-padding-15{
-    padding-left:15em;
-}
+/*Sliding Underline Stay until hover over End*/
+.sq-l-padding-15{padding-left:15em;}
