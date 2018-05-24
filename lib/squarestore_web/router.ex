@@ -20,7 +20,10 @@ defmodule SquarestoreWeb.Router do
 	get "/userpage", UserPageController, :index
 
 	get "/login", LoginController, :index
-	get "/tos", TosController, :index
+  get "/userpage", UserPageController, :index
+  get "/tos", TosController, :index
+  get "/about", AboutController, :index
+
   end
 
   # Other scopes may use custom stacks.
