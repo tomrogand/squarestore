@@ -9,6 +9,32 @@ flex: 1;
     flex: auto;
 }
 
+/* Paul Buttons */
+
+.sq-nav-btn-group button {
+    background-color: var(--secondary-highlight); 
+    border: none; 
+    color: white; 
+    padding: 8px 15px; 
+    cursor: pointer; 
+    
+}
+
+/* Clear floats (clearfix hack) */
+.sq-nav-btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sq-nav-btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+
+.sq-nav-btn-group button:hover {
+    background-color: var(--secondary-transparancy);
+
 /* PK products layout area classes */
 .sq-products-layout-area-button{
   grid-area:1 / 1 / span end / span 1;
