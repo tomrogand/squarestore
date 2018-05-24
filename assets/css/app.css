@@ -34,7 +34,7 @@ flex: 1;
 
 .sq-nav-btn-group button:hover {
     background-color: var(--secondary-transparancy);
-
+}
 /* PK products layout area classes */
 .sq-products-layout-area-button{
   grid-area:1 / 1 / span end / span 1;
