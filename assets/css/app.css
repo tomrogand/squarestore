@@ -8,3 +8,25 @@ flex: 1;
 .sq-flex-auto{
     flex: auto;
 }
+
+/* PK products layout area classes */
+.sq-products-layout-area-button{
+  grid-area:1 / 1 / span end / span 1;
+}
+.sq-products-layout-area-header{
+  grid-area: 1 / 2 / span 1 /span end;
+}
+.sq-products-layout-area-cards{
+  grid-area: 2 / 2 / span end / span end;
+}
+/* PK product cards */
+.sq-products-card{
+  width:25rem;
+  height:20rem;
+  background-color: var(--background);
+  margin:0;
+}
+/* PK flex */
+.sq-flex-wrap{
+  flex-wrap:wrap;
+}
