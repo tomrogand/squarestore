@@ -18,7 +18,7 @@
     display: none;
     padding: 1rem;
 }
-  
+
 .sq-tabs input[type="radio"] {
     display: none;
 }
@@ -28,12 +28,12 @@
 .sq-tabs input[type="radio"]:checked + label + .sq-tab {
     display: block;
 }
-@media (max-width: 45em) {
+/* @media (max-width: 45em) {
     .sq-tabs .tab,
     .sq-tabs label {
       order: initial;
     }
-}
+} */
 .sq-tabs label {
       width: 100%;
       margin-right: 0;
@@ -46,9 +46,9 @@
       width: 32em;
       border: double 1px black;
 }
-    @media (max-width: 45em) {
+    /* @media (max-width: 45em) {
       .sq-tabs .tab,
       .sq-tabs label {
         order: initial;
     }
-}
+} */
