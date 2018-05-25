@@ -12,12 +12,12 @@ flex: 1;
 /* Paul Buttons */
 
 .sq-nav-btn-group button {
-    background-color: var(--secondary-highlight); 
-    border: none; 
-    color: white; 
-    padding: 8px 15px; 
-    cursor: pointer; 
-    
+    background-color: var(--secondary-highlight);
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+
 }
 
 /* Clear floats (clearfix hack) */
