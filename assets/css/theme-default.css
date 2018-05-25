@@ -22,6 +22,14 @@
     --muted: #999;
     --muted-highlight: #666;
     --divider: #d8d8d8;
+	--shadow-31p: #0000000c;
+	--shadow-41p: #00000010;
+	--shadow-48p: #00000013;
+	--shadow-56p: #00000016;
+	--shadow-59p: #00000017;
+	--shadow-61p: #00000018;
+	--shadow-64p: #00000019;
+	--shadow-77p: #0000001E;
 }
 .sq-text-base{color: var(--text-base);}
 .sq-danger-highlight{background-color: var(--danger-highlight);}
@@ -74,3 +82,7 @@
 .sq-background-lightblue{background-color: var(--info-highlight);}
 .sq-background-green{background-color: var(--success);}
 .sq-background-red{background-color: var(--danger-highlight);}
+
+/* Shadows */
+
+.sq-
