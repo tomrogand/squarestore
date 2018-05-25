@@ -1,4 +1,4 @@
-defmodule SquarestoreWeb.HomepageController do
+defmodule SquarestoreWeb.ProductsController do
   use SquarestoreWeb, :controller
 
   def index(conn, _params) do

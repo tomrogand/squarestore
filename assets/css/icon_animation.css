@@ -4,12 +4,12 @@
     display: block;
     position: relative;
 }
-/* img{
+img{
     display: block;
     height: 250px;
     width: 250px;
     border-radius: 50% 50% 50% 50%;
-} */
+}
 .shake.inline,
 h2.shake{display: inline-block;}
 h1,h2,p{color: rgb(00, 00, 00);}
